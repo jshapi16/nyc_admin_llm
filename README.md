@@ -43,9 +43,7 @@ nyc-llm/
 │
 ├── data/                    # Contains the NYC legal text
 │
-├── notebooks/               # Jupyter notebooks for experimentation and training
-│
-├── models/                  # Pre-trained models (e.g., BART, Claude)
+├── notebooks/               # Jupyter notebooks with the RAG script
 │
 ├── chromadb/                # ChromaDB storage for legal text embeddings
 │
