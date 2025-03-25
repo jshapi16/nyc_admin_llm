@@ -31,12 +31,14 @@ Legal Text Embedding: The NYC legal text (including the NYC Administrative Code)
 
 
 ## Usage
-To query the system, call the `generate_answer` function
-`query = "What are the restrictions on carrying guns in NYC?"`
-`answer = generate_answer(query)`
-`print("Answer:", answer)`
+```
+#To query the system, call the `generate_answer` function:
+query = "What are the restrictions on carrying guns in NYC?"
+answer = generate_answer(query)
+print("Answer:", answer)
+```
 
-
+```
 nyc-llm/
 │
 ├── data/                    # Contains the NYC legal text
@@ -50,6 +52,7 @@ nyc-llm/
 ├── requirements.txt         # Required Python libraries
 │
 └── README.md                # Project documentation
+```
 
 License
 This project is licensed under the MIT License.
