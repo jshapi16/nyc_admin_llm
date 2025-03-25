@@ -6,7 +6,7 @@ The NYC-Law Language Model (NYCLLM) is a domain-specific retrieval-augmented gen
 This project is aimed at creating a powerful tool to make legal information more accessible and understandable by leveraging large language models (LLMs) and legal text embeddings.
 
 ## Features
-Dataset: Includes a .txt (Titles 1, 2, 8, 9, 10, 20), .csv (Titles 8, 9, 10), and .json (Titles 8, 9, and 10) of the administrative code with metadata and QA-pairs.
+Dataset: Includes a .txt (Titles 1, 2, 8, 9, 10, 20), .csv (Titles 8, 9, 10), and .jsonl (Titles 8, 9, and 10) of the administrative code with metadata and QA-pairs.
 
 Retrieval-Augmented Generation: Uses a retrieval process to fetch the most relevant legal text from the dataset and then generates context-aware answers based on that text.
 
